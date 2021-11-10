@@ -5,9 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import Counter from './components/counter';
+import Greet from './components/Greet';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Greet/>
     <Counter />
   </React.StrictMode>,
   document.getElementById('root')
